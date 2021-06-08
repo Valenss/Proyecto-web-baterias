@@ -32,7 +32,7 @@
         }
          
     }
-echo $_SESSION['mail'];
+echo  $_SESSION['mail'];
     // 4. Verificamos la clave
     if($mail === $mail_bdd){
         //Clave correcta - Recupero los datos
